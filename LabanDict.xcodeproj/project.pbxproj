@@ -14,6 +14,12 @@
 		D78A2B8A2011C301000B70B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78A2B882011C301000B70B9 /* Main.storyboard */; };
 		D78A2B962011C302000B70B9 /* LabanDictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2B952011C302000B70B9 /* LabanDictTests.swift */; };
 		D78A2BA12011C302000B70B9 /* LabanDictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BA02011C302000B70B9 /* LabanDictUITests.swift */; };
+		D78A2BB32011F4EE000B70B9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB22011F4EE000B70B9 /* Store.swift */; };
+		D78A2BB42011F4EE000B70B9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB22011F4EE000B70B9 /* Store.swift */; };
+		D78A2BB52011F4EE000B70B9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB22011F4EE000B70B9 /* Store.swift */; };
+		D78A2BB72011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
+		D78A2BB82011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
+		D78A2BB92011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,8 @@
 		D78A2B9C2011C302000B70B9 /* LabanDictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabanDictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78A2BA02011C302000B70B9 /* LabanDictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabanDictUITests.swift; sourceTree = "<group>"; };
 		D78A2BA22011C302000B70B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78A2BB22011F4EE000B70B9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D78A2BB62011F518000B70B9 /* LabanDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabanDict.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,8 @@
 				D78A2B8B2011C301000B70B9 /* Info.plist */,
 				D78A2B8C2011C301000B70B9 /* LabanDict.entitlements */,
 				D78A2B832011C301000B70B9 /* LabanDict.xcdatamodeld */,
+				D78A2BB22011F4EE000B70B9 /* Store.swift */,
+				D78A2BB62011F518000B70B9 /* LabanDict.swift */,
 			);
 			path = LabanDict;
 			sourceTree = "<group>";
@@ -196,6 +206,11 @@
 					D78A2B7B2011C301000B70B9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					D78A2B902011C302000B70B9 = {
 						CreatedOnToolsVersion = 9.2;
@@ -262,7 +277,9 @@
 			files = (
 				D78A2B822011C301000B70B9 /* ViewController.swift in Sources */,
 				D78A2B852011C301000B70B9 /* LabanDict.xcdatamodeld in Sources */,
+				D78A2BB72011F518000B70B9 /* LabanDict.swift in Sources */,
 				D78A2B802011C301000B70B9 /* AppDelegate.swift in Sources */,
+				D78A2BB32011F4EE000B70B9 /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D78A2B962011C302000B70B9 /* LabanDictTests.swift in Sources */,
+				D78A2BB42011F4EE000B70B9 /* Store.swift in Sources */,
+				D78A2BB82011F518000B70B9 /* LabanDict.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D78A2BA12011C302000B70B9 /* LabanDictUITests.swift in Sources */,
+				D78A2BB52011F4EE000B70B9 /* Store.swift in Sources */,
+				D78A2BB92011F518000B70B9 /* LabanDict.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +440,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LabanDict/LabanDict.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LabanDict/Info.plist;
@@ -434,7 +454,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LabanDict/LabanDict.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LabanDict/Info.plist;
