@@ -1,6 +1,6 @@
 //
-//  LabanDict.swift
-//  LabanDict
+//  Dictionary.swift
+//  Dictionary
 //
 //  Created by Binh Nguyen on 1/19/18.
 //  Copyright © 2018 Binh Nguyen. All rights reserved.

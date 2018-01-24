@@ -1,6 +1,6 @@
 //
 //  RecentViewController.swift
-//  LabanDict
+//  Dictionary
 //
 //  Created by Binh Nguyen on 1/23/18.
 //  Copyright © 2018 Binh Nguyen. All rights reserved.
@@ -36,14 +36,14 @@ class RecentViewController: NSViewController {
 
 extension RecentViewController: NSTableViewDataSource, NSTableViewDelegate {
   func numberOfRows(in tableView: NSTableView) -> Int {
-    return stored.labanDict.vocabularies.count
+    return stored.Dictionary.vocabularies.count
   }
   
   func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
     guard let identifier = tableColumn?.identifier else { return nil }
     let cell = tableView.makeView(withIdentifier: identifier, owner: self) as? NSTableCellView
     
-    let vocabulary = stored.labanDict.vocabularies[row]
+    let vocabulary = stored.Dictionary.vocabularies[row]
     
     switch identifier.hashValue {
     case Column.name.identifier.hashValue:

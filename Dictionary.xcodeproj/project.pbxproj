@@ -12,14 +12,14 @@
 		D78A2B852011C301000B70B9 /* LabanDict.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D78A2B832011C301000B70B9 /* LabanDict.xcdatamodeld */; };
 		D78A2B872011C301000B70B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78A2B862011C301000B70B9 /* Assets.xcassets */; };
 		D78A2B8A2011C301000B70B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78A2B882011C301000B70B9 /* Main.storyboard */; };
-		D78A2B962011C302000B70B9 /* LabanDictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2B952011C302000B70B9 /* LabanDictTests.swift */; };
-		D78A2BA12011C302000B70B9 /* LabanDictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BA02011C302000B70B9 /* LabanDictUITests.swift */; };
+		D78A2B962011C302000B70B9 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2B952011C302000B70B9 /* DictionaryTests.swift */; };
+		D78A2BA12011C302000B70B9 /* DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BA02011C302000B70B9 /* DictionaryUITests.swift */; };
 		D78A2BB32011F4EE000B70B9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB22011F4EE000B70B9 /* Store.swift */; };
 		D78A2BB42011F4EE000B70B9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB22011F4EE000B70B9 /* Store.swift */; };
 		D78A2BB52011F4EE000B70B9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB22011F4EE000B70B9 /* Store.swift */; };
-		D78A2BB72011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
-		D78A2BB82011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
-		D78A2BB92011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
+		D78A2BB72011F518000B70B9 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* Vocabulary.swift */; };
+		D78A2BB82011F518000B70B9 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* Vocabulary.swift */; };
+		D78A2BB92011F518000B70B9 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* Vocabulary.swift */; };
 		D78B23442016F369000C04CD /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B23432016F369000C04CD /* RecentViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,13 +50,13 @@
 		D78A2B8B2011C301000B70B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D78A2B8C2011C301000B70B9 /* LabanDict.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LabanDict.entitlements; sourceTree = "<group>"; };
 		D78A2B912011C302000B70B9 /* DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D78A2B952011C302000B70B9 /* LabanDictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabanDictTests.swift; sourceTree = "<group>"; };
+		D78A2B952011C302000B70B9 /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
 		D78A2B972011C302000B70B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D78A2B9C2011C302000B70B9 /* DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D78A2BA02011C302000B70B9 /* LabanDictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabanDictUITests.swift; sourceTree = "<group>"; };
+		D78A2BA02011C302000B70B9 /* DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryUITests.swift; sourceTree = "<group>"; };
 		D78A2BA22011C302000B70B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D78A2BB22011F4EE000B70B9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		D78A2BB62011F518000B70B9 /* LabanDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabanDict.swift; sourceTree = "<group>"; };
+		D78A2BB62011F518000B70B9 /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
 		D78B23432016F369000C04CD /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,9 +88,9 @@
 		D78A2B732011C301000B70B9 = {
 			isa = PBXGroup;
 			children = (
-				D78A2B7E2011C301000B70B9 /* LabanDict */,
-				D78A2B942011C302000B70B9 /* LabanDictTests */,
-				D78A2B9F2011C302000B70B9 /* LabanDictUITests */,
+				D78A2B7E2011C301000B70B9 /* Dictionary */,
+				D78A2B942011C302000B70B9 /* DictionaryTests */,
+				D78A2B9F2011C302000B70B9 /* DictionaryUITests */,
 				D78A2B7D2011C301000B70B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D78A2B7E2011C301000B70B9 /* LabanDict */ = {
+		D78A2B7E2011C301000B70B9 /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
 				D78A2B7F2011C301000B70B9 /* AppDelegate.swift */,
@@ -117,27 +117,27 @@
 				D78A2B8C2011C301000B70B9 /* LabanDict.entitlements */,
 				D78A2B832011C301000B70B9 /* LabanDict.xcdatamodeld */,
 				D78A2BB22011F4EE000B70B9 /* Store.swift */,
-				D78A2BB62011F518000B70B9 /* LabanDict.swift */,
+				D78A2BB62011F518000B70B9 /* Vocabulary.swift */,
 			);
-			path = LabanDict;
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
-		D78A2B942011C302000B70B9 /* LabanDictTests */ = {
+		D78A2B942011C302000B70B9 /* DictionaryTests */ = {
 			isa = PBXGroup;
 			children = (
-				D78A2B952011C302000B70B9 /* LabanDictTests.swift */,
+				D78A2B952011C302000B70B9 /* DictionaryTests.swift */,
 				D78A2B972011C302000B70B9 /* Info.plist */,
 			);
-			path = LabanDictTests;
+			path = DictionaryTests;
 			sourceTree = "<group>";
 		};
-		D78A2B9F2011C302000B70B9 /* LabanDictUITests */ = {
+		D78A2B9F2011C302000B70B9 /* DictionaryUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D78A2BA02011C302000B70B9 /* LabanDictUITests.swift */,
+				D78A2BA02011C302000B70B9 /* DictionaryUITests.swift */,
 				D78A2BA22011C302000B70B9 /* Info.plist */,
 			);
-			path = LabanDictUITests;
+			path = DictionaryUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +280,7 @@
 			files = (
 				D78A2B822011C301000B70B9 /* ViewController.swift in Sources */,
 				D78A2B852011C301000B70B9 /* LabanDict.xcdatamodeld in Sources */,
-				D78A2BB72011F518000B70B9 /* LabanDict.swift in Sources */,
+				D78A2BB72011F518000B70B9 /* Vocabulary.swift in Sources */,
 				D78B23442016F369000C04CD /* RecentViewController.swift in Sources */,
 				D78A2B802011C301000B70B9 /* AppDelegate.swift in Sources */,
 				D78A2BB32011F4EE000B70B9 /* Store.swift in Sources */,
@@ -291,9 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78A2B962011C302000B70B9 /* LabanDictTests.swift in Sources */,
+				D78A2B962011C302000B70B9 /* DictionaryTests.swift in Sources */,
 				D78A2BB42011F4EE000B70B9 /* Store.swift in Sources */,
-				D78A2BB82011F518000B70B9 /* LabanDict.swift in Sources */,
+				D78A2BB82011F518000B70B9 /* Vocabulary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78A2BA12011C302000B70B9 /* LabanDictUITests.swift in Sources */,
+				D78A2BA12011C302000B70B9 /* DictionaryUITests.swift in Sources */,
 				D78A2BB52011F4EE000B70B9 /* Store.swift in Sources */,
-				D78A2BB92011F518000B70B9 /* LabanDict.swift in Sources */,
+				D78A2BB92011F518000B70B9 /* Vocabulary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,9 +446,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = LabanDict/Info.plist;
+				INFOPLIST_FILE = Dictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.LabanDict;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -460,9 +460,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = LabanDict/Info.plist;
+				INFOPLIST_FILE = Dictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.LabanDict;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};

@@ -1,6 +1,6 @@
 //
-//  LabanDictUITests.swift
-//  LabanDictUITests
+//  DictionaryUITests.swift
+//  DictionaryUITests
 //
 //  Created by Binh Nguyen on 1/19/18.
 //  Copyright © 2018 Binh Nguyen. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class LabanDictUITests: XCTestCase {
+class DictionaryUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

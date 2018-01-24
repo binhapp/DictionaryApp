@@ -1,15 +1,15 @@
 //
-//  LabanDictTests.swift
-//  LabanDictTests
+//  DictionaryTests.swift
+//  DictionaryTests
 //
 //  Created by Binh Nguyen on 1/19/18.
 //  Copyright © 2018 Binh Nguyen. All rights reserved.
 //
 
 import XCTest
-@testable import LabanDict
+@testable import Dictionary
 
-class LabanDictTests: XCTestCase {
+class DictionaryTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
