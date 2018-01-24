@@ -10,8 +10,6 @@ import Cocoa
 import WebKit
 
 class ViewController: NSViewController {
-  
-  fileprivate lazy var stored = Store()
 
   @IBOutlet weak var webView: WKWebView! {
     didSet {
@@ -20,6 +18,8 @@ class ViewController: NSViewController {
       webView.navigationDelegate = self
     }
   }
+  
+  fileprivate var stored: Store = Store.shared
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -62,7 +62,7 @@ extension ViewController: WKNavigationDelegate {
     }
     
     group.notify(queue: .main) {
-      self.stored.labanDict.vocabularies.append(vocabulary)
+      self.stored.add(vocabulary: vocabulary)
     }
   }
 }

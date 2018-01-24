@@ -18,4 +18,6 @@ struct Vocabulary: Codable {
   var pronounce: [String]?
   var voices: [String]?
   var count = 1
+  let createdAt: Date = Date()
+  var updatedAt: Date = Date()
 }

@@ -20,6 +20,7 @@
 		D78A2BB72011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
 		D78A2BB82011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
 		D78A2BB92011F518000B70B9 /* LabanDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* LabanDict.swift */; };
+		D78B23442016F369000C04CD /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B23432016F369000C04CD /* RecentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		D78A2BA22011C302000B70B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D78A2BB22011F4EE000B70B9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		D78A2BB62011F518000B70B9 /* LabanDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabanDict.swift; sourceTree = "<group>"; };
+		D78B23432016F369000C04CD /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				D78A2B7F2011C301000B70B9 /* AppDelegate.swift */,
 				D78A2B812011C301000B70B9 /* ViewController.swift */,
+				D78B23432016F369000C04CD /* RecentViewController.swift */,
 				D78A2B862011C301000B70B9 /* Assets.xcassets */,
 				D78A2B882011C301000B70B9 /* Main.storyboard */,
 				D78A2B8B2011C301000B70B9 /* Info.plist */,
@@ -278,6 +281,7 @@
 				D78A2B822011C301000B70B9 /* ViewController.swift in Sources */,
 				D78A2B852011C301000B70B9 /* LabanDict.xcdatamodeld in Sources */,
 				D78A2BB72011F518000B70B9 /* LabanDict.swift in Sources */,
+				D78B23442016F369000C04CD /* RecentViewController.swift in Sources */,
 				D78A2B802011C301000B70B9 /* AppDelegate.swift in Sources */,
 				D78A2BB32011F4EE000B70B9 /* Store.swift in Sources */,
 			);

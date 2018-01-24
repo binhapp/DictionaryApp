@@ -11,11 +11,10 @@ import Foundation
 private let STORE_KEY = "LabanDict"
 
 struct Store {
-  var labanDict: Vocabularies = Vocabularies() {
-    didSet {
-      stored()
-    }
-  }
+  
+  static let shared = Store()
+  
+  private(set) var labanDict: Vocabularies = Vocabularies()
   
   init() {
     let decoder = JSONDecoder()
@@ -27,7 +26,26 @@ struct Store {
     self.labanDict = labanDict
   }
   
-  func stored() {
+  mutating func add(vocabulary: Vocabulary) {
+    if vocabulary.name == nil { return }
+    if let index = labanDict.vocabularies.index(where: { $0.name == vocabulary.name }) {
+      var oldVocabulary = labanDict.vocabularies[index]
+      oldVocabulary.count += 1
+      oldVocabulary.updatedAt = Date()
+      labanDict.vocabularies[index] = oldVocabulary
+    } else {
+      labanDict.vocabularies.insert(vocabulary, at: 0)
+    }
+    sorted()
+    stored()
+  }
+  
+  private mutating func sorted() {
+    labanDict.vocabularies = labanDict.vocabularies
+      .sorted(by: { $0.updatedAt > $1.updatedAt })
+  }
+  
+  private func stored() {
     let encoder = JSONEncoder()
     guard
       let data = try? encoder.encode(labanDict),
