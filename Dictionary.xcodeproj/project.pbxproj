@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D78A2B802011C301000B70B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2B7F2011C301000B70B9 /* AppDelegate.swift */; };
 		D78A2B822011C301000B70B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2B812011C301000B70B9 /* ViewController.swift */; };
-		D78A2B852011C301000B70B9 /* LabanDict.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D78A2B832011C301000B70B9 /* LabanDict.xcdatamodeld */; };
 		D78A2B872011C301000B70B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78A2B862011C301000B70B9 /* Assets.xcassets */; };
 		D78A2B8A2011C301000B70B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78A2B882011C301000B70B9 /* Main.storyboard */; };
 		D78A2B962011C302000B70B9 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2B952011C302000B70B9 /* DictionaryTests.swift */; };
@@ -21,6 +20,7 @@
 		D78A2BB82011F518000B70B9 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* Vocabulary.swift */; };
 		D78A2BB92011F518000B70B9 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78A2BB62011F518000B70B9 /* Vocabulary.swift */; };
 		D78B23442016F369000C04CD /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B23432016F369000C04CD /* RecentViewController.swift */; };
+		D7C2FA892019861100E20AD4 /* Dictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7C2FA872019861100E20AD4 /* Dictionary.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +29,14 @@
 			containerPortal = D78A2B742011C301000B70B9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D78A2B7B2011C301000B70B9;
-			remoteInfo = LabanDict;
+			remoteInfo = Dictionary;
 		};
 		D78A2B9D2011C302000B70B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D78A2B742011C301000B70B9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D78A2B7B2011C301000B70B9;
-			remoteInfo = LabanDict;
+			remoteInfo = Dictionary;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,11 +44,10 @@
 		D78A2B7C2011C301000B70B9 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78A2B7F2011C301000B70B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D78A2B812011C301000B70B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D78A2B842011C301000B70B9 /* LabanDict.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LabanDict.xcdatamodel; sourceTree = "<group>"; };
 		D78A2B862011C301000B70B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D78A2B892011C301000B70B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D78A2B8B2011C301000B70B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D78A2B8C2011C301000B70B9 /* LabanDict.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LabanDict.entitlements; sourceTree = "<group>"; };
+		D78A2B8C2011C301000B70B9 /* Dictionary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dictionary.entitlements; sourceTree = "<group>"; };
 		D78A2B912011C302000B70B9 /* DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78A2B952011C302000B70B9 /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
 		D78A2B972011C302000B70B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		D78A2BB22011F4EE000B70B9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		D78A2BB62011F518000B70B9 /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
 		D78B23432016F369000C04CD /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		D7C2FA882019861100E20AD4 /* LabanDict.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LabanDict.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +114,8 @@
 				D78A2B862011C301000B70B9 /* Assets.xcassets */,
 				D78A2B882011C301000B70B9 /* Main.storyboard */,
 				D78A2B8B2011C301000B70B9 /* Info.plist */,
-				D78A2B8C2011C301000B70B9 /* LabanDict.entitlements */,
-				D78A2B832011C301000B70B9 /* LabanDict.xcdatamodeld */,
+				D78A2B8C2011C301000B70B9 /* Dictionary.entitlements */,
+				D7C2FA872019861100E20AD4 /* Dictionary.xcdatamodeld */,
 				D78A2BB22011F4EE000B70B9 /* Store.swift */,
 				D78A2BB62011F518000B70B9 /* Vocabulary.swift */,
 			);
@@ -156,7 +156,7 @@
 			dependencies = (
 			);
 			name = Dictionary;
-			productName = LabanDict;
+			productName = Dictionary;
 			productReference = D78A2B7C2011C301000B70B9 /* Dictionary.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -174,7 +174,7 @@
 				D78A2B932011C302000B70B9 /* PBXTargetDependency */,
 			);
 			name = DictionaryTests;
-			productName = LabanDictTests;
+			productName = DictionaryTests;
 			productReference = D78A2B912011C302000B70B9 /* DictionaryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -192,7 +192,7 @@
 				D78A2B9E2011C302000B70B9 /* PBXTargetDependency */,
 			);
 			name = DictionaryUITests;
-			productName = LabanDictUITests;
+			productName = DictionaryUITests;
 			productReference = D78A2B9C2011C302000B70B9 /* DictionaryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -279,9 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D78A2B822011C301000B70B9 /* ViewController.swift in Sources */,
-				D78A2B852011C301000B70B9 /* LabanDict.xcdatamodeld in Sources */,
 				D78A2BB72011F518000B70B9 /* Vocabulary.swift in Sources */,
 				D78B23442016F369000C04CD /* RecentViewController.swift in Sources */,
+				D7C2FA892019861100E20AD4 /* Dictionary.xcdatamodeld in Sources */,
 				D78A2B802011C301000B70B9 /* AppDelegate.swift in Sources */,
 				D78A2BB32011F4EE000B70B9 /* Store.swift in Sources */,
 			);
@@ -475,9 +475,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = LabanDictTests/Info.plist;
+				INFOPLIST_FILE = DictionaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.LabanDictTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.DictionaryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Contents/MacOS/Dictionary";
@@ -491,9 +491,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = LabanDictTests/Info.plist;
+				INFOPLIST_FILE = DictionaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.LabanDictTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.DictionaryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Contents/MacOS/Dictionary";
@@ -506,12 +506,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = LabanDictUITests/Info.plist;
+				INFOPLIST_FILE = DictionaryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.LabanDictUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.DictionaryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = LabanDict;
+				TEST_TARGET_NAME = Dictionary;
 			};
 			name = Debug;
 		};
@@ -521,12 +521,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = LabanDictUITests/Info.plist;
+				INFOPLIST_FILE = DictionaryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.LabanDictUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blcsntb.DictionaryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = LabanDict;
+				TEST_TARGET_NAME = Dictionary;
 			};
 			name = Release;
 		};
@@ -572,13 +572,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D78A2B832011C301000B70B9 /* LabanDict.xcdatamodeld */ = {
+		D7C2FA872019861100E20AD4 /* Dictionary.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D78A2B842011C301000B70B9 /* LabanDict.xcdatamodel */,
+				D7C2FA882019861100E20AD4 /* LabanDict.xcdatamodel */,
 			);
-			currentVersion = D78A2B842011C301000B70B9 /* LabanDict.xcdatamodel */;
-			path = LabanDict.xcdatamodeld;
+			currentVersion = D7C2FA882019861100E20AD4 /* LabanDict.xcdatamodel */;
+			path = Dictionary.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -675,7 +675,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="LabanDict" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Dictionary" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -711,7 +711,7 @@
         <!--View Controller-->
         <scene sceneID="V7M-iJ-Qer">
             <objects>
-                <viewController id="LTs-Bh-HPZ" customClass="ViewController" customModule="LabanDict" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LTs-Bh-HPZ" customClass="ViewController" customModule="Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="EtO-H2-ktY">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -742,7 +742,7 @@
         <!--Recent-->
         <scene sceneID="0nK-bO-sFw">
             <objects>
-                <viewController title="Recent" id="LZl-zw-NYG" customClass="RecentViewController" customModule="LabanDict" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Recent" id="LZl-zw-NYG" customClass="RecentViewController" customModule="Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="RNN-Lk-zL8">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
