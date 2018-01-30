@@ -12,12 +12,6 @@ class RecentViewController: NSViewController {
   
   @IBOutlet weak var recentTableView: NSTableView!
   
-  fileprivate var stored: Store = Store.shared {
-    didSet {
-      print(stored)
-    }
-  }
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     setupRecentTableView()
@@ -36,14 +30,14 @@ class RecentViewController: NSViewController {
 
 extension RecentViewController: NSTableViewDataSource, NSTableViewDelegate {
   func numberOfRows(in tableView: NSTableView) -> Int {
-    return stored.Dictionary.vocabularies.count
+    return Store.shared.Dictionary.vocabularies.count
   }
   
   func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
     guard let identifier = tableColumn?.identifier else { return nil }
     let cell = tableView.makeView(withIdentifier: identifier, owner: self) as? NSTableCellView
     
-    let vocabulary = stored.Dictionary.vocabularies[row]
+    let vocabulary = Store.shared.Dictionary.vocabularies[row]
     
     switch identifier.hashValue {
     case Column.name.identifier.hashValue:

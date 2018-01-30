@@ -12,7 +12,7 @@ private let STORE_KEY = "Dictionary"
 
 struct Store {
   
-  static let shared = Store()
+  static var shared = Store()
   
   private(set) var Dictionary: Vocabularies = Vocabularies()
   

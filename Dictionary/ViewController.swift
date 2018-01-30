@@ -19,8 +19,6 @@ class ViewController: NSViewController {
     }
   }
   
-  fileprivate var stored: Store = Store.shared
-  
   override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -62,7 +60,7 @@ extension ViewController: WKNavigationDelegate {
     }
     
     group.notify(queue: .main) {
-      self.stored.add(vocabulary: vocabulary)
+      Store.shared.add(vocabulary: vocabulary)
     }
   }
 }
