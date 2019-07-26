@@ -687,8 +687,9 @@
             <objects>
                 <tabViewController title="Dictionary" selectedTabViewItemIndex="0" id="LvO-XQ-K71" sceneMemberID="viewController">
                     <tabViewItems>
-                        <tabViewItem label="Search" identifier="" id="MbB-Qf-Mvb"/>
-                        <tabViewItem identifier="" id="cLk-Vh-PuF"/>
+                        <tabViewItem label="Laban" identifier="" id="MbB-Qf-Mvb"/>
+                        <tabViewItem label="Translate" id="kSs-TZ-NE6"/>
+                        <tabViewItem label="Recent" identifier="" id="cLk-Vh-PuF"/>
                     </tabViewItems>
                     <tabView key="tabView" type="noTabsNoBorder" id="H1T-za-M77">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
@@ -701,6 +702,7 @@
                     <connections>
                         <outlet property="tabView" destination="H1T-za-M77" id="dgN-QR-O1a"/>
                         <segue destination="LTs-Bh-HPZ" kind="relationship" relationship="tabItems" id="x8X-9P-rgU"/>
+                        <segue destination="U3U-M9-Fwd" kind="relationship" relationship="tabItems" id="uIV-vg-PYc"/>
                         <segue destination="LZl-zw-NYG" kind="relationship" relationship="tabItems" id="qxQ-CD-1UD"/>
                     </connections>
                 </tabViewController>
@@ -887,6 +889,32 @@
                 <customObject id="Ba9-vT-U8c" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="751" y="487"/>
+        </scene>
+        <!--Translate View Controller-->
+        <scene sceneID="Yc7-Zu-uuv">
+            <objects>
+                <viewController id="U3U-M9-Fwd" customClass="TranslateViewController" customModule="Dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="vlw-cA-0wh">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <wkWebView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="abs-Qx-KcE">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="abs-Qx-KcE" id="uf8-w6-NIw"/>
+                    </connections>
+                </viewController>
+                <customObject id="frz-vz-0GV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="751" y="852"/>
         </scene>
     </scenes>
 </document>
