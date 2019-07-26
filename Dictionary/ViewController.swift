@@ -76,7 +76,7 @@ extension WKWebView {
   func parsePronounce(completion: @escaping ([String]?) -> Void) {
     let js = rootElement + ".getElementsByTagName('p')[0].innerText"
     evaluateJavaScript(js) { (data, _) in
-      completion((data as? String)?.split(separator: " ").flatMap { String($0) })
+        completion((data as? String)?.split(separator: " ").compactMap { String($0) })
     }
   }
   
