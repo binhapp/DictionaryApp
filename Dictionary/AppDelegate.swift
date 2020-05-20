@@ -20,7 +20,19 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   func applicationWillTerminate(_ aNotification: Notification) {
     // Insert code here to tear down your application
   }
-
+  
+  @IBAction func seachMenuItemTapped(_ sender: NSMenuItem) {
+    let tabIndex = sender.tag
+    getMainTabViewController().selectTab(index: tabIndex)
+  }
+  
+  func getMainTabViewController() -> MainTabViewController {
+    guard let mainTabViewController = NSApplication.shared.mainWindow?.windowController?.contentViewController as? MainTabViewController else {
+      fatalError()
+    }
+    return mainTabViewController
+  }
+  
   // MARK: - Core Data stack
 
   lazy var persistentContainer: NSPersistentContainer = {

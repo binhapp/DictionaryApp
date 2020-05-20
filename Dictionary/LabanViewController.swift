@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LabanViewController.swift
 //  Dictionary
 //
 //  Created by Binh Nguyen on 1/19/18.
@@ -9,7 +9,7 @@
 import Cocoa
 import WebKit
 
-class ViewController: NSViewController {
+class LabanViewController: NSViewController {
 
   @IBOutlet weak var webView: WKWebView! {
     didSet {
@@ -34,7 +34,7 @@ class ViewController: NSViewController {
 
 }
 
-extension ViewController: WKNavigationDelegate {
+extension LabanViewController: WKNavigationDelegate {
   func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
     let group = DispatchGroup()
     
